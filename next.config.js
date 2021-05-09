@@ -1,5 +1,5 @@
-import withPlugins from 'next-compose-plugins'
-import optimizedImages from 'next-optimized-images'
+const withPlugins = import('next-compose-plugins')
+const optimizedImages = import('next-optimized-images')
 
 module.exports = withPlugins([
   [
