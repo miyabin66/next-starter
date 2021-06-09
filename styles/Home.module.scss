@@ -119,3 +119,7 @@
     flex-direction: column;
   }
 }
+
+.img {
+  @include image('vercel', 300, 300, 'svg');
+}
