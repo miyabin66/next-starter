@@ -6,6 +6,7 @@ module.exports = withPlugins([
   {
     sassOptions: {
       includePaths: [path.join(__dirname, 'styles')],
+      prependData: `@import "commons.scss";`,
     },
   },
   [

@@ -50,7 +50,6 @@ const Home = (): JSX.Element => {
             </p>
           </a>
         </div>
-        <div className={styles.img}></div>
       </main>
 
       <footer className={styles.footer}>
