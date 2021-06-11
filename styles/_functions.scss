@@ -1,7 +1,5 @@
-@import "variables";
-
 @function image-url($path) {
-  @return url('~assets/images/#{$path}');
+  @return url('/#{$path}');
 }
 
 @function pc-convert($px, $width: $pc-convert-width) {
