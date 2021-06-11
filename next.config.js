@@ -5,8 +5,7 @@ const path = require('path')
 module.exports = withPlugins([
   {
     sassOptions: {
-      includePaths: [path.join(__dirname, 'styles')],
-      prependData: `@import "commons.scss";`,
+      prependData: '@import "~/styles/commons.scss";',
     },
   },
   [
